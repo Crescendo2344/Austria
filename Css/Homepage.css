@@ -88,15 +88,21 @@ body{
     font-size: 20px;
     margin-bottom: 50px;
 }
-button{
-    display: block;
+.btn{
+    display: inline-block;
+    text-decoration: none;
     border: none;
-    background-color: hsl(0, 2%, 34%);
+    background-color: hsl(0, 2%, 30%);
     color: white;
     font-weight: bold;
     cursor: pointer;
+    transition: 0.3s;
     padding: 10px 20px;
 
+}
+
+.btn:hover{
+    background-color: #e63946;
 }
 
 .Cities{
