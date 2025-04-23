@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    padding: 0;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+.Background {
+    width: 100%;
+    min-height: 703px;
+}
+
+.navbar {
+    display: flex;
+    background-color: #e63946;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 60px 20px 60px;
+}
+
+.navbar h1 {
+    position: absolute;
+    left: 100px;
+    color: white;
+    padding: 50px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.navbar ul {
+    font-size: larger; 
+    list-style: none;
+    display: flex;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.2s;
+    padding: 0px 25px;
+}
+
+
+.navbar a:hover{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.flag {
+    width: 60px;
+    height: 40px;
+    padding: 5px;
+}
+
+.Map{
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid black;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    left: 160px;
+    top: 60px;
+}
+
+.MapImage:hover{
+    transition: transform 0.5s ease;
+    transform:scale3d(1.1, 1.1, 1.1);
+}
+
+.footer{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    color: white;
+    padding: 30px;
+    font-size: x-small;
+    background-color:#e63946;
+}
