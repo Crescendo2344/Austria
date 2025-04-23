@@ -116,14 +116,31 @@ button{
     width: 500px;
 }
 
-.city1 {
-
+.city {
     width: 491px;
     height: 541px;
 }
 
-.city2 {
 
-    width: 491px;
-    height: 541px;
+
+.Cities h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.Cities p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.footer{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    color: white;
+    padding: 30px;
+    font-size: x-small;
+    background-color:#e63946;
 }
