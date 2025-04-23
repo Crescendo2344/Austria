@@ -7,20 +7,123 @@
 
 body{
     padding: 0;
+    overflow: auto;
+    scroll-behavior: smooth;
 }
 
 .Background {
-    background-color: black;
-    width: 100%; 
-    max-width: 1501px; 
-    height: 703px;
-    overflow: hidden;
-    position: relative; 
+    background-image: url("/Images/Austria.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 703px;
+    color: white; 
+    padding: 20px;
 }
 
-.BackgroundImage {
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+}
+
+.navbar h1 {
     position: absolute;
-    width: 100%;       
-    height: 100%;      
-    object-fit: cover; 
+    left: 100px;
+    padding: 50px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.navbar ul {
+    font-size: larger; 
+    list-style: none;
+    display: flex;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.2s;
+    padding: 0px 25px;
+}
+
+
+.navbar a:hover{
+    color: #e63946;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.flag {
+    width: 60px;
+    height: 40px;
+    padding: 5px;
+}
+
+.Main{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 125px;
+    gap: 20px;
+}
+
+.Main h3{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.Main h1{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.Main p{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+button{
+    display: block;
+    border: none;
+    background-color: hsl(0, 2%, 34%);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 20px;
+
+}
+
+.Cities{
+
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.Cities div {
+
+    border: 5px solid black;
+    border-radius: 2px;
+    height: 550px;
+    width: 500px;
+}
+
+.city1 {
+
+    width: 491px;
+    height: 541px;
+}
+
+.city2 {
+
+    width: 491px;
+    height: 541px;
 }
