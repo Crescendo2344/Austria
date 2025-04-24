@@ -83,6 +83,7 @@ body{
 }
 
 .MapImage:hover{
+    cursor: pointer;
     transition: transform 0.5s ease;
     transform:scale3d(1.1, 1.1, 1.1);
 }
@@ -100,6 +101,7 @@ body{
     font-weight: bold;
 }
 .info h4:hover{
+    cursor: pointer;
     color:#e63946;
 }
 
@@ -130,6 +132,7 @@ body{
 }
 
 .Other1 h4:hover{
+    cursor: pointer;
     color:#e63946;
 }
 
