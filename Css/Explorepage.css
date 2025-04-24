@@ -61,82 +61,74 @@ body{
     padding: 5px;
 }
 
-.ImageGallery1{
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    height: fit-content;
-    width: fit-content;
-    gap: 125px;
-    padding-top: 75px;
-    margin: 40px;
-}
-
-.ImageGallery2{
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    height: fit-content;
-    width: fit-content;
-    gap: 160px;
-    padding-left: 100px;
-    padding-top: 75px;
-    margin: 40px;
-}
-
-.ImageGallery3{
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    height: fit-content;
-    width: fit-content;
-    gap: 150px;
-    padding-left: 40px;
-    padding-top: 75px;
-    margin: 40px;
-}
 .Main{
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: fit-content;
-    width: fit-content;
-    padding-bottom: 50px;
+    padding: 100px;
+    margin-right: 75px;
+    gap: 50px;
 }
 
-.Image{
+.Map{
     border: 5px solid black;
     border-radius: 3px;
-    width: 500px;
+    display: inline-block;
+    width: auto;
     height: 500px;
     position: relative;
     overflow: hidden;
+    left: -300px;
 }
 
-.PopularImage {
- 
+.MapImage{
+
     height: 500px;
     width: 500px;
-    
 }
 
-.PopularImage:hover{
+.MapImage:hover{
     cursor: pointer;
     transition: transform 0.5s ease;
     transform:scale3d(1.1, 1.1, 1.1);
 }
 
-.info{
-    text-align: center;
+.list{
+    list-style:none;
 }
 
+.list li{
+    font-weight:100;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-indent: 60px;
+}
+
+#mark1{
+    background-color: springgreen;
+}
+#mark2{
+    background-color: hsl(60, 68%, 58%);
+}
+#mark3{
+    background-color: hsl(0, 59%, 60%);
+}
+#mark4{
+    background-color: #16e6e6;
+}
+.info{
+    position: absolute;
+    top: 175px;
+    left: 700px;
+}
+
+.info h1{
+    color:#e63946;
+    padding: 0 60px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
 .info h4:hover{
     cursor: pointer;
     color:#e63946;
@@ -145,8 +137,9 @@ body{
 .info h4{
     color:black;
     padding: 20px 60px;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .info p{
@@ -156,10 +149,6 @@ body{
     font-weight: normal;
 }
 
-
-#tag{
-    color: #e63946;
-}
 .Other1{
     position: relative;
     right: 100px;
@@ -212,7 +201,7 @@ body{
 
 .footer{
     position: relative;
-    top: 15px;
+    top: 50px;
     text-align: center;
     color: white;
     padding: 30px;
