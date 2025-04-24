@@ -61,7 +61,7 @@ body{
     padding: 5px;
 }
 
-.ImageGallery{
+.ImageGallery1{
 
     display: flex;
     flex-direction: row;
@@ -70,6 +70,34 @@ body{
     height: fit-content;
     width: fit-content;
     gap: 125px;
+    padding-top: 75px;
+    margin: 40px;
+}
+
+.ImageGallery2{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    width: fit-content;
+    gap: 160px;
+    padding-left: 100px;
+    padding-top: 75px;
+    margin: 40px;
+}
+
+.ImageGallery3{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    width: fit-content;
+    gap: 150px;
+    padding-left: 40px;
     padding-top: 75px;
     margin: 40px;
 }
