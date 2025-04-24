@@ -72,7 +72,7 @@ body{
 .Main{
     display: flex;
     flex-direction: column;
-    padding: 130px 125px;
+    padding: 110px 125px;
     gap: 20px;
 }
 
@@ -84,12 +84,14 @@ body{
 
 .Main h1{
     font-weight: bold;
+    font-style: italic;
     font-size: 50px;
     margin-bottom: 20px;
 }
 
 .Main p{
     font-size: 20px;
+    font-style: italic;
     margin-bottom: 50px;
 }
 .btn{

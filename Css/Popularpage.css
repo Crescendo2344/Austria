@@ -61,43 +61,54 @@ body{
     padding: 5px;
 }
 
-.Main{
+.ImageGallery{
+
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 50px;
-    gap: 50px;
+    height: fit-content;
+    width: fit-content;
+    gap: 125px;
+    padding-top: 75px;
+    margin: 40px;
+}
+.Main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    width: fit-content;
+    padding-bottom: 50px;
 }
 
-.Map{
+.Image{
     border: 5px solid black;
     border-radius: 3px;
-    display: inline-block;
-    width: auto;
-    height: auto;
+    width: 500px;
+    height: 500px;
     position: relative;
     overflow: hidden;
-    left: -300px;
 }
 
-.MapImage:hover{
+.PopularImage {
+ 
+    height: 500px;
+    width: 500px;
+    
+}
+
+.PopularImage:hover{
     cursor: pointer;
     transition: transform 0.5s ease;
     transform:scale3d(1.1, 1.1, 1.1);
 }
 
 .info{
-    position: absolute;
-    top: 150px;
-    left: 700px;
+    text-align: center;
 }
 
-.info h1{
-    color:#e63946;
-    padding: 0 60px;
-    font-size: 50px;
-    font-weight: bold;
-}
 .info h4:hover{
     cursor: pointer;
     color:#e63946;
@@ -106,7 +117,7 @@ body{
 .info h4{
     color:black;
     padding: 20px 60px;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
 }
 
@@ -117,6 +128,10 @@ body{
     font-weight: normal;
 }
 
+
+#tag{
+    color: #e63946;
+}
 .Other1{
     position: relative;
     right: 100px;
