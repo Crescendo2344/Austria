@@ -151,13 +151,12 @@ body{
 
 .Other1{
     position: relative;
-    right:350px;
-    bottom: 150px;
+    bottom: 140px;
 }
 
 .Other1 h4{
     color:black;
-    padding: 20px 60px;
+    padding: 30px 60px;
     font-size: 30px;
     font-weight: bold;
 }
@@ -169,13 +168,32 @@ body{
     font-weight: normal;
 }
 
+.Other2{
+    position: relative;
+    right: 50px;
+    bottom: 390px;
+}   
+
+.Other2 h4{
+    color:black;
+    padding: 30px 60px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Other2 p{
+    color:black;
+    font-size: 20px;
+    font-weight: normal;
+}
+
 #nestedlist {
     padding-left: 125px;
     list-style-type:none;
 }
 .footer{
     position: relative;
-    top: 50px;
+    top: 10px;
     text-align: center;
     color: white;
     padding: 30px;
