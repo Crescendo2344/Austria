@@ -117,34 +117,53 @@ body{
     font-weight: normal;
 }
 
-.Others{
+.Other1{
     position: relative;
-    right: 350px;
+    right: 100px;
 }
 
-.Others h1{
+.Other1 h1{
     color:#e63946;
     padding: 0 60px;
     font-size: 50px;
     font-weight: bold;
 }
 
-.Others h4:hover{
+.Other1 h4:hover{
     color:#e63946;
 }
 
-.Others h4{
+.Other1 h4{
     color:black;
     padding: 20px 60px;
     font-size: 30px;
     font-weight: bold;
 }
 
-.Others p{
+.Other1 p{
     color:black;
     padding: 5px 60px;
     font-size: 20px;
     font-weight: normal;
+}
+
+.Other2{
+    position: relative;
+    right: 8px;
+}
+
+.Other2 h1{
+    color:#e63946;
+    padding: 0 60px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.iframe{
+
+    position: relative;
+    left: 60px
 }
 
 .footer{
