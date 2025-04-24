@@ -89,15 +89,62 @@ body{
 
 .info{
     position: absolute;
-    top: 200px;
-    padding-left: 150px;
+    top: 150px;
+    left: 700px;
 }
 
 .info h1{
-    color:black;
+    color:#e63946;
     padding: 0 60px;
     font-size: 50px;
     font-weight: bold;
+}
+.info h4:hover{
+    color:#e63946;
+}
+
+.info h4{
+    color:black;
+    padding: 20px 60px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.info p{
+    color:black;
+    padding: 5px 60px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.Others{
+    position: relative;
+    right: 350px;
+}
+
+.Others h1{
+    color:#e63946;
+    padding: 0 60px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.Others h4:hover{
+    color:#e63946;
+}
+
+.Others h4{
+    color:black;
+    padding: 20px 60px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Others p{
+    color:black;
+    padding: 5px 60px;
+    font-size: 20px;
+    font-weight: normal;
 }
 
 .footer{
